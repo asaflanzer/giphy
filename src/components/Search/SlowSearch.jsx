@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useGiphy } from '../hooks/useGiphy';
+import { useGiphy } from '../../hooks/useGiphy';
 
 const Search = () => {
   const [query, setQuery] = useState('');
